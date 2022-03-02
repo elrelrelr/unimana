@@ -1,0 +1,43 @@
+*{font-family: arial; margin: 0; padding: 0; overflow: hidden;}
+
+.informacion{
+	grid-area: uno; position: relative;
+}
+.titulo{
+	font-size: 280%;  position: absolute; top: 1%; left: 5%; max-width: 90%; max-height: 23%; font-weight: bold;
+	
+}
+.texto{
+	font-size: 230%; position: absolute; top: 20%; left: 5%; max-width: 80%; height: 60%; overflow-y: auto;
+}
+
+.profesores{
+	position: absolute; top: 80%; left: 5%; width: 70%; height: 20%; display: flex; gap: 20px; overflow: auto;
+}
+.fondo{position: absolute; top: 5%; left: 5%; width: 110px; height: 90%; background-color: #00002e; border-radius: 100%;}
+.invisible{display: none;}
+
+
+.gracias{font-size: 30px; color: green;  position: absolute; top: 85%; left: 5%;
+ /* display: none; */
+ }
+.datos{
+	background-color: #303c5e; grid-area: dos; color: white; font-size: 20px; position: absolute; width: 100%; height: 100%;
+}
+.imagenesconvenio{
+	 display: none; position: absolute; top: 10%; width: 25%; height: 80%; left: 10%; border-radius: 5px;
+}
+.precio{position: absolute; top: 10%; width: 40%; height: 80%; left: 45%; font-size: 25px; font-weight: bold;}
+
+.contenedor{
+	position: relative;
+	width: 100%; height: 100%;
+	display: grid;
+	grid-template-areas:
+	"uno"
+	"dos";
+	grid-template-rows: 75% 25%;
+	background-color:#e8e8e8;
+}
+
+
