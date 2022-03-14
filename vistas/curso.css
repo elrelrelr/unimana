@@ -7,7 +7,7 @@
 }
 
 .informacion{
-	grid-area: uno; position: relative;
+	grid-area: uno; position: relative; z-index: 2;
 }
 .titulo{
 	font-size: 280%;  position: absolute; top: 1%; left: 5%; max-width: 90%; max-height: 23%; font-weight: bold;
