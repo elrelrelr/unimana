@@ -77,7 +77,7 @@ a{text-decoration: none;}
     position: absolute; width: 50%; height: 10%; top: 45%; left: 20%; z-index: 2;
 }
 .gradoejemplo{
-    position: absolute; width: 80%; height: 90%; top: 5%; left: 10%;
+    position: absolute; width: 80%; height: 90%; top: 5%; left: 10%; object-fit: contain;
 }
 .cfd{
     position: absolute; width: 10%; height: 100%; top: 0%; left: 90%; z-index: 1; background-color: transparent;
